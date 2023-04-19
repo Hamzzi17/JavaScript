@@ -95,6 +95,9 @@ const calculator = {
     minus: function (a, b) {
         console.log(a - b);
     },
+    multi: function (a, b) {
+        console.log(a * b);
+    },
     divide: function (a, b) {
         console.log(a / b);
     },
@@ -105,6 +108,7 @@ const calculator = {
 
 calculator.add(5, 1);
 calculator.minus(7, 2);
+calculator.multi(4, 9);
 calculator.divide(21, 3);
 calculator.powerOf(3, 2);
 // 1+1, 1-1, a+b, a-b, a/b, a**b 구현
